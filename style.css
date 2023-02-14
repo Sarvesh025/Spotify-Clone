@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 85vh;
+}
+nav{
+    width: 20%;
+    min-height: 100vh;
+    color: #fff;
+    display: inline-block;
+    background: #191414;
+    padding: 0px 10px;
+}
+nav .brand img{
+    height: 55px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    color: aliceblue;
+    background: #191414;
+    margin-bottom: 20px;
+}
+.list div{
+    display: flex;
+    align-items: center;
+}
+.list img{
+    filter: invert(1);
+    height: 24px;
+    margin: 12px 20px;
+}
+.list1{
+    padding: 15px 0px;
+    border-bottom: 1px solid white;
+}
+.list1 div{
+    display: flex;
+    align-items: center;
+}
+.list1 img{
+    filter: invert(1);
+    height: 24px;
+    margin: 12px 20px;
+}
+
+.list2 div{
+    display: flex;
+    align-items: center;
+}
+.list2{
+    position: absolute;
+    bottom: 20px;
+}
+.list2 img{
+    filter: invert(1);
+    height: 24px;
+    margin: 12px 20px;
+}
+.content{
+    /* background: url(/images/background.jpg); */
+    background: darksalmon;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 88%;
+    position: absolute;
+}
+.songList{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.songItem{
+    color: #fff;
+    padding: 10px;
+    background: #191414;
+    height: 230px;
+    position: relative;
+}
+.songItem .info{
+    font-size: smaller;
+}
+.time{
+    position: relative;
+    bottom: 38px;
+    display: inline-block;
+    width: 98%;
+    text-align: end;
+}
+.songItem img{
+    height: 170px;
+
+}
+.songListPlay {
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    cursor: pointer;
+}
+.songBanner{
+    position: absolute;
+}
+.function{
+    background: #575757;
+    position: fixed;
+    bottom: 2px;
+    width: -webkit-fill-available;
+    height: 10%;
+    padding: 15px 10px;
+    border-radius: 0px 25px 0px 0px;
+}
+.function #progressBar{
+    width: 100%;
+}
+.buttons{
+    width: fit-content;
+    margin: auto;
+}
+.buttons i{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.buttons .beat{
+    height: 30px;
+    margin: 0px 100px;
+    width: 160px;
+}
